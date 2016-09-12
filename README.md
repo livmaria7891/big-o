@@ -14,6 +14,9 @@ Give the efficiency of each of the following code snippets.
 ### Problems for you
 
 Snippet 1 - Big O:
+
+linear O(n)
+
 ```ruby
 def largest?(array, value)
   array.each do |item|
@@ -24,6 +27,9 @@ end
 ```
 
 Snippet 2 - Big O:
+
+linear O(n)
+
 ```ruby
 def info_dump(customers)
   puts "Customer Names: "
@@ -38,6 +44,9 @@ end
 ```
 
 Snippet 3 - Big O:
+
+O(1)- constant
+
 ```ruby
 def first_element_is_red?(array)
   array[0] == 'red' ? true : false
@@ -45,6 +54,9 @@ end
 ```
 
 Snippet 4 - Big O:
+
+O(n^2)
+
 ```ruby
 def duplicates?(array)
   array.each_with_index do |item1, index1|
@@ -58,6 +70,8 @@ end
 ```
 
 Snippet 5 - Big O:
+
+O(n*m)
 ```ruby
 words = [chocolate, coconut, rainbow]
 endings = [cookie, pie, waffle]
@@ -70,6 +84,8 @@ end
 ```
 
 Snippet 6 - Big O:
+
+linear O(n)
 ```ruby
 numbers = [1,2,3,4,5,6,7,8,9,10]
 
@@ -79,6 +95,9 @@ end
 ```
 
 Snippet 7 - Big O:
+
+0(n^2)
+
 ```ruby
 # this is insertion sort
 (2..num.length).each do |j|
@@ -94,6 +113,7 @@ end
 
 Snippet 8 - Big O:
 ```ruby
+O(n^2)
 # this is selection sort
 n.times do |i|
   index_min = i
